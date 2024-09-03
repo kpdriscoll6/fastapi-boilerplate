@@ -27,4 +27,4 @@ async def root():
 
 @app.get("/items")
 async def get_items():
-    return {"items": ["Item 1", "Item 2", "Item 3"]}
+    return {"items": ["Item 1-Kevin", "Item 2", "Item 3"]}
